@@ -16,7 +16,7 @@ class Grzegorz:
         
         print("podaj 1 2 lub 3   ")
         hoo = int(input())
-        print(hoo)
+        
         
         
         
@@ -34,7 +34,7 @@ class Grzegorz:
 
             
         
-        print(len(kop))
+        
         
         
         
@@ -42,7 +42,7 @@ class Grzegorz:
         
         
             
-        print("Nowa Dęba")    
+            
         j = Counter(kop)      
         for z in j:
             
@@ -50,13 +50,15 @@ class Grzegorz:
             dictp[z] = j[z]
         nb = list(dictp.values())
         k = max(nb)
-        
+        f = ''
         if (hoo == 1):
             print(k)
         if ( hoo == 2):
             print("podaj slowo   ")
             hoo2 = input()
-            print(hoo2)
+            
+            f = dictp[hoo2]
+            print(f)
             
 
             
@@ -85,6 +87,6 @@ class Grzegorz:
 
       
 piotr = Grzegorz()
-piotr.read(0,{},[],1,[],-1,)
+piotr.read(0,{},[],1,[],-1)
 
 
