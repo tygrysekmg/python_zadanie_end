@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from collections import Counter
 from pip._vendor.progress import counter
 class Grzegorz:
@@ -12,7 +13,7 @@ class Grzegorz:
         self.bruce = 0
         self.w = []
         self.s = 0;
-        h = 0
+        
         
         print("podaj 1 2 lub 3   ")
         hoo = int(input())
@@ -50,15 +51,19 @@ class Grzegorz:
             dictp[z] = j[z]
         nb = list(dictp.values())
         k = max(nb)
-        f = ''
+        
         if (hoo == 1):
+            print("wysepuje")
             print(k)
+            print("razy")
         if ( hoo == 2):
             print("podaj slowo   ")
             hoo2 = input()
             
-            f = dictp[hoo2]
-            print(f)
+            s = dictp[hoo2]
+            print("wystepuje ")
+            print(s)
+            print("razy")
             
 
             
