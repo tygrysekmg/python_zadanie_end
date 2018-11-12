@@ -79,7 +79,7 @@ class Grzegorz:
             
                 
                     
-        print(str(dictp))
+        
         
         
 
